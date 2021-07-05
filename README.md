@@ -21,4 +21,16 @@ Create a new macro in the game with the following content,
 
 # Use case
 
+My character learned tailoring enchanting, I usually buy clothes from auction, craft and disenchant. I am tried of calcuting the number of bolts in my bag and buy the right number of other martrials from merchant.
 
+`/LSAutoPurchaseTBC Bolt of Silk Cloth:/3;Blue Dye:*2;Fine Thread:*2`
+
+The above macro can purchase the right number of blue dyes and fine threads from merchant.
+
+Run the macro anytime, it checks the numbers.
+
+![image info](./Images/1.png)
+
+Talk to a merchant, and run the macro again, if the merchant has right items, the macro will do the purchase.
+
+![image info](./Images/2.png)
