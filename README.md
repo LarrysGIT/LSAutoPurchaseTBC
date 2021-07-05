@@ -34,3 +34,7 @@ Run the macro anytime, it checks the numbers as the following image,
 Talk to a merchant, and run the macro again, if the merchant has right items available, the macro will do the purchase.
 
 ![image info](./Images/2.png)
+
+# Other version?
+
+Currently I am only foucs on TBC, not playing others, so only TBC is provided here.
