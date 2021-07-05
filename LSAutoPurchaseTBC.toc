@@ -1,0 +1,7 @@
+## Interface: 20501
+## Title: LS Auto Purchase TBC
+## Notes: Buy things from a merchant based on the number of another item
+## Author: https://github.com/LarrysGIT/LSAutoPurchaseTBC
+## Version: 1
+
+LSAutoPurchaseTBC.lua
