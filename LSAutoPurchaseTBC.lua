@@ -51,7 +51,18 @@ local function Give_Me_N_Value(n, str)
     return nil
 end
 
+local LastRunDateTime = 0
+
 local function LSAutoPurchaseTBC(inputstr)
+    LastRunDateTime_ = GetTime()
+    if LastRunDateTime ~= 0 then
+        seconds_diff = LastRunDateTime_ - LastRunDateTime
+        if seconds_diff < 1.5 then
+            print("You clicked too fast!")
+            return
+        end
+    end
+    LastRunDateTime = LastRunDateTime_
     items = mysplit(inputstr, ";")
     if table.getn(items) == 0 then
         help("No argument is received")
