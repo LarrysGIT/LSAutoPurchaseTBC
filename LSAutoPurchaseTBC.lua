@@ -58,7 +58,7 @@ local function LSAutoPurchaseTBC(inputstr)
     if LastRunDateTime ~= 0 then
         seconds_diff = LastRunDateTime_ - LastRunDateTime
         if seconds_diff < 1.5 then
-            print("You clicked too fast!")
+            print("You click too fast! Slow down.")
             return
         end
     end
