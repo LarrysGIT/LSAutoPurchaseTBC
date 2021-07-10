@@ -87,7 +87,7 @@ local function LSAutoPurchaseTBC(inputstr)
         n_InBag = GetItemCount(item[1])
         n_ShouldBe = Give_Me_N_Value(N2, item[2])
         n_Missing = n_ShouldBe - n_InBag
-        print("The item: " .. item[1] .. "; Count in bag: " .. n_InBag .. "; Should be: " .. n_ShouldBe .. "; Missing: " .. n_Missing)
+        print(" -> Item: " .. item[1] .. "; Count in bag: " .. n_InBag .. "; Should be: " .. n_ShouldBe .. "; Missing: " .. n_Missing)
         for itemIndex = 1, GetMerchantNumItems() do
             tmp = GetMerchantItemInfo(itemIndex)
             if tmp == item[1] then
