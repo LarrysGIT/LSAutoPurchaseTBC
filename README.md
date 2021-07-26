@@ -19,6 +19,12 @@ Create a macro in the game with the following content,
 
 `/LSAutoPurchaseTBC ItemName1:/3;ItemName2:*2;ItemName3:*3`
 
+# How to use
+
+Put into the AddOns directory. e.g. `World of Warcraft\_classic_\Interface\AddOns\LSAutoPurchaseTBC`
+
+Launch the game.
+
 # Use case
 
 My game character learned tailoring and enchanting, I usually buy clothes from auction, craft and disenchant. I am tried of calcuting the number of cloth bolts in my bag and buy the right number of martrials from merchants.
